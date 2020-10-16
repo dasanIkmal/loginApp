@@ -1,0 +1,175 @@
+/* version 3.0 table added */
+.login-container {
+	-webkit-font-smoothing: antialiased;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: .9em;
+	color: #1e2a28;
+	width: 740px;
+	margin: 0 auto;
+	padding: 0px 20px 20px 20px;
+}
+
+.login-container table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.login-container td, .login-container th {
+	text-align: left;
+	padding: 8px;
+}
+
+.login-container h1 {
+	font-weight: normal;
+}
+
+input[type=text].login-input, .login-container input,
+	.login-container textarea, .login-container select, .login-input,
+	.login-select {
+	box-sizing: border-box;
+	width: 200px;
+	height: initial;
+	padding: 8px 5px;
+	border: 1px solid #9a9a9a;
+	border-radius: 3px;
+}
+
+.login-container input[type="checkbox"] {
+	width: auto;
+	vertical-align: text-bottom;
+	display: initial;
+	opacity: initial;
+	position: inherit;
+	pointer-events: initial;
+}
+
+.login-container textarea, .login-textarea {
+	width: 300px;
+}
+
+.login-container select, .login-select {
+	display: initial;
+	height: 30px;
+	background-color: #fff;
+	padding: 2px 5px;
+}
+
+.login-container button, .login-container input[type=submit] {
+	padding: 8px 0px;
+	font-size: 1em;
+	cursor: pointer;
+	border-radius: 3px;
+	color: #565656;
+	font-weight: bold;
+	background-color: #ffc72c;
+	border-color: #ffd98e #ffbe3d #de9300;
+}
+
+.login-container button, .login-container input[type=submit]:hover {
+	background-color: #f7c027;
+}
+
+.login-container button:focus {
+	outline: none;
+}
+
+.login-container .login-row {
+	padding-top: 15px;
+}
+
+#login-message {
+	padding: 6px 20px;
+	font-size: 1em;
+	color: rgb(40, 40, 40);
+	box-sizing: border-box;
+	margin: 0px;
+	border-radius: 3px;
+	width: 100%;
+	overflow: auto;
+}
+
+.login-container .error {
+	padding: 6px 20px;
+	border-radius: 3px;
+	background-color: #fb817c;
+	border: 1px solid #e46b66;
+}
+
+.login-container .success {
+	background-color: #48e0a4;
+	border: #40cc94 1px solid;
+}
+
+#login-loader-icon {
+	color: #1871e6;
+	font-weight: bold;
+	padding: 6px 20px 6px 0;
+	display: none;
+	vertical-align: middle;
+}
+
+#login-loader-ack-icon {
+	color: #1871e6;
+	font-weight: bold;
+	padding: 6px 20px 6px 0;
+	display: none;
+	vertical-align: middle;
+}
+
+#login-btn-send:hover {
+	background: #1363cc;
+	border: #105bbd 1px solid;
+}
+
+.login-container .validation-message {
+	color: #e20900;
+	display: inline-block;
+}
+
+.login-container .label {
+	margin-bottom: 3px;
+}
+
+.login-form, .login-section {
+	border: #eaeaea 1px solid;
+	padding: 10px 25px 10px 30px;
+	border-radius: 3px;
+}
+
+.login-container .display-none {
+	display: none;
+}
+
+.icon-add-more-attachemnt {
+	cursor: pointer;
+	font-style: italic;
+	font-size: .9em;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+@media all and (max-width: 780px) {
+	.login-container {
+		width: auto;
+	}
+}
+
+@media all and (max-width: 400px) {
+	.login-container {
+		padding: 0px 20px;
+	}
+	.login-container h1 {
+		font-size: 1.2em;
+	}
+	.login-container input, .login-container textarea, .login-container select
+		{
+		width: 100%;
+	}
+	.login-form {
+		border: none;
+		padding: 0;
+	}
+}
